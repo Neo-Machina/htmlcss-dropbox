@@ -10,12 +10,12 @@ body {
 }
 
 /* COMMON */
-.big-container {
+.container {
 
 }
 
-.small-container {
-
+img {
+    width: 100%;
 }
 
 ul {
@@ -36,10 +36,10 @@ header {
     left: 0;
     width: 100%;
     z-index: 10;
+    background-color: blueviolet;
 }
 
 .nav-area {
-    /* background-color: lightblue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,6 +77,52 @@ header a {
 /* MAIN */
 main {
     margin-top: 85px;
+}
+
+/* JUMBOTRON */
+.jumbo-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    height: 500px;
+    background-color: green;
+}
+
+.jumbo-content{
+    display: flex;
+    height: 500px;
+}
+
+h1 {
+    background-color: orange;
+    color: black
+
+}
+
+.col-jumbo {
+    background-color: lightblue;
+    border: 1px solid red;
+}
+
+.text-jumbo {
+    color: lightcoral;
+}
+
+p {
+    background-color: pink;
+    color: black
+}
+
+.jumbo-box-img {
+    position: relative;
+}
+
+.img-jumbo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
