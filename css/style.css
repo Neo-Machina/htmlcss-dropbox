@@ -27,6 +27,10 @@ ul {
     color: white;
 }
 
+.paragraphs {
+    font-size: 16px;
+}
+
 /* HEADER */
 header {
     height: 85px;
@@ -36,7 +40,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .nav-area {
@@ -80,39 +84,52 @@ main {
 }
 
 /* JUMBOTRON */
+.jumbotron {
+    background-color: #b4d0e7;
+    height: 690px;
+}
+
 .jumbo-container {
     width: 80%;
     margin: 0 auto;
 }
 
-section {
-    height: 500px;
-    background-color: green;
-}
-
 .jumbo-content{
     display: flex;
-    height: 500px;
 }
 
 h1 {
-    background-color: orange;
-    color: black
-
+    font-size: 70px;
+    padding: 70px 20px 40px 0;
 }
 
-.col-jumbo {
-    background-color: lightblue;
-    border: 1px solid red;
+.left-col-jumbo {
+    width: 33%;
 }
 
-.text-jumbo {
-    color: lightcoral;
+.right-col-jumbo {
+    width: 67%;
 }
 
-p {
-    background-color: pink;
-    color: black
+.text-jumbo a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.jumbo-button {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.text-jumbo span {
+    margin-bottom: 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.arrow {
+    font-size: 50px;
 }
 
 .jumbo-box-img {
@@ -121,9 +138,10 @@ p {
 
 .img-jumbo {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 25px;
 }
+
+
 
 
 
