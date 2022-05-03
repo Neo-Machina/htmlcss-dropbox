@@ -8,3 +8,78 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* COMMON */
+.big-container {
+
+}
+
+.small-container {
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.blue-buttons {
+    background-color: #0061ff;
+    color: white;
+}
+
+/* HEADER */
+header {
+    height: 85px;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-area {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* MENU */
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-menu li, .right-menu li {
+    padding: 0 20px;
+}
+
+.left-menu ul li:not(:first-child) {
+    font-size: 16px;
+}
+
+.right-menu li {
+    font-size: 16px;
+}
+
+.header-button {
+    padding: 7px 18px;
+    font-size: 14px;
+}
+
+/* MAIN */
+main {
+    margin-top: 85px;
+}
+
+
+
+
+
