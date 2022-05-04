@@ -344,31 +344,35 @@ h1 {
 
 /* SECTION 4 */
 .section-4 {
-    background-color: green;
+    /* background-color: green; */
 }
 
 .op-title {
-    background-color: orange;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .operation-sec {
-    background-color: pink;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-}
-
-.operation-sec div {
-    border: 1px solid red;
 }
 
 .col-op {
-    background-color: lightblue;
     width: calc(( 100% / 3 ) - 50px );
-    margin-bottom: 120px;
+    margin-bottom: 105px;
 }
+
+.card-content-title {
+    margin-bottom: 20px;
+}
+
+.card .paragraphs span {
+    text-decoration: underline;
+} 
+
+
+
+
 
 
 
