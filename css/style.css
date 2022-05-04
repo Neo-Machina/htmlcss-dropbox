@@ -11,7 +11,8 @@ body {
 
 /* COMMON */
 .container {
-
+    width: 65%;
+    margin: 0 auto;
 }
 
 img {
@@ -22,6 +23,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .blue-buttons {
     background-color: #0061ff;
     color: white;
@@ -29,11 +34,24 @@ ul {
 
 .paragraphs {
     font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 39px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 /* HEADER */
 header {
-    height: 85px;
+    height: 80px;
     color: black;
     position: fixed;
     top: 0;
@@ -57,7 +75,6 @@ header ul {
 }
 
 header a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -80,7 +97,7 @@ header a {
 
 /* MAIN */
 main {
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 /* JUMBOTRON */
@@ -111,8 +128,11 @@ h1 {
     width: 67%;
 }
 
+.text-jumbo {
+    padding-right: 30px;
+}
+
 .text-jumbo a {
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
@@ -140,6 +160,114 @@ h1 {
     position: absolute;
     left: 25px;
 }
+
+/* SECTION 2 */
+.section-2 {
+    height: 1500px;
+    padding-top: 245px;
+}
+
+.input {
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 15px;
+    margin: 70px 0 35px 0;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #e0e0e1;
+}
+
+.color-circle {
+    border: 4px solid #0162ff;
+}
+/* BUSINESS-PLAN */
+.business-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-plan {
+    width: calc(( 100% / 3) - 42px);
+    border: 2px solid #d4d4d7;
+    padding-bottom: 185px;
+}
+
+.single-plan {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 2px solid #d4d4d7;
+}
+
+.plan-info {
+    margin: 33px;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+}
+
+.plan-info h3{
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mounth {
+    color: #87939d;
+    margin-bottom: 40px;
+}
+
+.pencil {
+    margin-right: 3px;
+}
+
+.plan-buttons {
+    padding: 8px 42px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.line {
+    background-color: #e0e0e2;
+    border: 1px solid #e0e0e2;
+    width: 50px;
+    margin: 35px 0;
+}
+
+.link-visited {
+    color: #2779ff;
+    text-decoration: underline;
+}
+
+.check {
+    color: #116bff;
+    margin-right: 5px;
+}
+
+.info-flex {
+    display: flex;
+}
+
+.list-plan ul li {
+    margin-bottom: 25px;
+}
+
+.list-plan li:first-child {
+    margin-top: 25px;
+}
+
+
+
+
 
 
 
