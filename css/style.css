@@ -279,6 +279,7 @@ h1 {
 }
 
 .enterprise-plan{
+    display: flex;
     align-items: center;
     background-color: orange;
 
@@ -286,8 +287,7 @@ h1 {
 
 .col-enterprise-left {
     background-color: pink;
-    padding: 25px;
-    width: 66%;
+    width: 61%;
 }
 
 .enterprise-text {
@@ -299,7 +299,6 @@ h1 {
 .col-enterprise-right {
     background-color: yellow;
     width: 29%;
-    width: 31%;
 }
 
 .enterprise-button {
