@@ -163,8 +163,8 @@ h1 {
 
 /* SECTION 2 */
 .section-2 {
-    height: 1500px;
-    padding-top: 245px;
+    height: 2000px;
+    padding-top: 195px;
 }
 
 .input {
@@ -196,7 +196,7 @@ h1 {
 .col-plan {
     width: calc(( 100% / 3) - 36px);
     border: 2px solid #d4d4d7;
-    padding-bottom: 185px;
+    padding-bottom: 160px;
 }
 
 .type-plan {
@@ -226,8 +226,13 @@ h1 {
     margin-bottom: 40px;
 }
 
+.fold-user{
+    margin-bottom: 20px;
+}
+
 .pencil {
     margin-right: 3px;
+    margin-bottom: 50px;
 }
 
 .plan-buttons {
@@ -267,38 +272,33 @@ h1 {
 
 /* ENTERPRISE PLAN */
 .enterprise {
-    background-color: lightblue;
-    height: 300px;
-    border: 1px solid red;
+    border: 2px solid #d4d4d7;
     margin-top: 50px;
-}
-
-.type-plan  {
-    background-color: lightcoral;
-
 }
 
 .enterprise-plan{
     display: flex;
-    align-items: center;
-    background-color: orange;
-
 }
 
 .col-enterprise-left {
-    background-color: pink;
-    width: 61%;
+    width: 65%;
+    padding: 30px 0 30px 30px;
+}
+
+.ent-space{
+    margin-bottom: 20px;
 }
 
 .enterprise-text {
     font-size: 14px;
     letter-spacing: -0.5px;
     margin-bottom: 5px;
+    margin-top: 30px;
 }
 
 .col-enterprise-right {
-    background-color: yellow;
-    width: 29%;
+    padding: 32px 20px;
+    width: 35%
 }
 
 .enterprise-button {
