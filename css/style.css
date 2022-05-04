@@ -344,7 +344,7 @@ h1 {
 
 /* SECTION 4 */
 .section-4 {
-    /* background-color: green; */
+    margin-bottom: 80px;
 }
 
 .op-title {
@@ -369,6 +369,21 @@ h1 {
 .card .paragraphs span {
     text-decoration: underline;
 } 
+
+/* SECTION 5 */
+.section-5 {
+    height: 300px;
+}
+
+.more-info-box {
+    width: 52%;
+}
+
+.more-info-link {
+    text-decoration: underline;
+    margin: 30px 0;
+    display: inline-block;
+}
 
 
 
