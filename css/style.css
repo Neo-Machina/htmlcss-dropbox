@@ -372,7 +372,8 @@ h1 {
 
 /* SECTION 5 */
 .section-5 {
-    height: 300px;
+    height: 1000px;
+    background-color: green;
 }
 
 .more-info-box {
@@ -381,9 +382,82 @@ h1 {
 
 .more-info-link {
     text-decoration: underline;
-    margin: 30px 0;
+    margin: 30px 0 50px 0;
     display: inline-block;
 }
+
+/* BOXES */
+.team-boxes {
+    display: flex;
+    height: 441px;
+}
+
+.team-boxes div {
+    border: 1px solid red;
+}
+
+.col-box {
+    background-color: pink;
+    width: 29%;
+    position: relative;
+}
+
+.small-box{
+    width: 50%;
+    height: 50%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+/* LEFT BOX */
+.designit-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.designit-logo {
+    
+}
+
+.arizona-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.arizona-logo {
+    
+}
+
+.florida-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.florida-logo {
+    
+}
+
+.topps-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.topps-logo {
+    
+}
+
+.col-box-center {
+    background-color: lightblue;
+    width: 42%;
+}
+
 
 
 
