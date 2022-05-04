@@ -316,7 +316,7 @@ h1 {
 
 /* SECTION 3 */
 .section-3 {
-    height: 800px;
+    margin-bottom: 105px;
 }
 
 .partner-section {
@@ -340,6 +340,34 @@ h1 {
     display: inline-block;
     padding: 8px 20px;
     border: 1px solid black;
+}
+
+/* SECTION 4 */
+.section-4 {
+    background-color: green;
+}
+
+.op-title {
+    background-color: orange;
+    margin-bottom: 50px;
+}
+
+.operation-sec {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.operation-sec div {
+    border: 1px solid red;
+}
+
+.col-op {
+    background-color: lightblue;
+    width: calc(( 100% / 3 ) - 50px );
+    margin-bottom: 120px;
 }
 
 
