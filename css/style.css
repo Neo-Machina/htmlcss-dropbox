@@ -11,7 +11,7 @@ body {
 
 /* COMMON */
 .container {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -194,12 +194,12 @@ h1 {
 }
 
 .col-plan {
-    width: calc(( 100% / 3) - 42px);
+    width: calc(( 100% / 3) - 36px);
     border: 2px solid #d4d4d7;
     padding-bottom: 185px;
 }
 
-.single-plan {
+.type-plan {
     text-align: center;
     padding: 10px 0;
     font-size: 16px;
@@ -207,7 +207,7 @@ h1 {
 }
 
 .plan-info {
-    margin: 33px;
+    margin: 33px 46px 33px 30px;
     letter-spacing: -0.5px;
     font-size: 14px;
 }
@@ -264,6 +264,52 @@ h1 {
 .list-plan li:first-child {
     margin-top: 25px;
 }
+
+/* ENTERPRISE PLAN */
+.enterprise {
+    background-color: lightblue;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+
+.type-plan  {
+    background-color: lightcoral;
+
+}
+
+.enterprise-plan{
+    align-items: center;
+    background-color: orange;
+
+}
+
+.col-enterprise-left {
+    background-color: pink;
+    padding: 25px;
+    width: 66%;
+}
+
+.enterprise-text {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.col-enterprise-right {
+    background-color: yellow;
+    width: 29%;
+    width: 31%;
+}
+
+.enterprise-button {
+    padding: 8px 70px;
+}
+
+.col-enterprise-right a {
+    display: inline-block;
+}
+
 
 
 
