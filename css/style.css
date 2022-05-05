@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* COMMON */
 .big-container {
     width: 80%;
     margin: 0 auto;
@@ -30,16 +30,20 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
+    display: inline-block;
 }
 
 .blue-buttons {
     background-color: #0061ff;
     color: white;
+    display: inline-block;
 }
 
 .white-buttons {
     background-color: white;
     color: black;
+    display: inline-block;
 }
 
 .paragraphs {
@@ -82,10 +86,6 @@ header {
 header ul {
     display: flex;
     align-items: center;
-}
-
-header a {
-    color: inherit;
 }
 
 .left-menu li, .right-menu li {
@@ -138,7 +138,6 @@ h1 {
 }
 
 .text-jumbo a {
-    display: inline-block;
     font-size: 16px;
 }
 
@@ -198,9 +197,12 @@ h1 {
     justify-content: space-between;
 }
 
+.border-plan {
+    border: 2px solid #d4d4d7;;
+}
+
 .col-plan {
     width: calc(( 100% / 3) - 36px);
-    border: 2px solid #d4d4d7;
     padding-bottom: 160px;
 }
 
@@ -242,7 +244,6 @@ h1 {
 
 .plan-buttons {
     padding: 8px 42px;
-    display: inline-block;
     margin-bottom: 25px;
 }
 
@@ -267,7 +268,7 @@ h1 {
     display: flex;
 }
 
-.list-plan ul li {
+.list-plan li {
     margin-bottom: 25px;
 }
 
@@ -277,7 +278,6 @@ h1 {
 
 /* ENTERPRISE PLAN */
 .enterprise {
-    border: 2px solid #d4d4d7;
     margin-top: 50px;
 }
 
@@ -304,10 +304,6 @@ h1 {
 .col-enterprise-right {
     padding: 32px 20px;
     width: 35%
-}
-
-.col-enterprise-right a {
-    display: inline-block;
 }
 
 .enterprise-button {
@@ -337,7 +333,6 @@ h1 {
 }
 
 .partner-button {
-    display: inline-block;
     padding: 8px 20px;
     border: 1px solid black;
 }
@@ -375,10 +370,10 @@ h1 {
     width: 52%;
 }
 
-.more-info-link {
+.more-info-link a {
     text-decoration: underline;
     margin: 30px 0 55px 0;
-    display: inline-block;
+    color: #1f74ff;
 }
 
 /* BOXES */
@@ -539,8 +534,6 @@ footer {
 .col-footer a {
     font-size: 14px;
     margin-bottom: 10px;
-    color: inherit;
-    display: inline-block;
 }
 
 .footer-line {
@@ -560,9 +553,6 @@ footer {
     font-size: 15px;
 }
 
-.language-section a {
-    color: inherit;
-}
 
 
 
