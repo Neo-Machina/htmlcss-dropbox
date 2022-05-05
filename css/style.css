@@ -10,6 +10,11 @@ body {
 }
 
 /* COMMON */
+.big-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
@@ -109,11 +114,6 @@ main {
 .jumbotron {
     background-color: #b4d0e7;
     height: 690px;
-}
-
-.jumbo-container {
-    width: 80%;
-    margin: 0 auto;
 }
 
 .jumbo-content{
@@ -509,6 +509,7 @@ h1 {
 .question-section h3 {
     border-bottom: 1px solid #e0e0e2;
     padding-bottom: 50px;
+    font-size: 32px;
 }
 
 .questions {
@@ -518,6 +519,46 @@ h1 {
     padding: 35px 30px 35px 0px;
 }
 
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+.footer-section h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.info-section-ft {
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 20px 0;
+}
+
+.col-footer a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: inherit;
+    display: inline-block;
+}
+
+.footer-line {
+    width: 110px;
+    margin: 95px 20px 40px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.language-section {
+    padding: 0 20px 0;
+    color: #999999;
+    font-size: 13px;
+}
+
+.language-section span {
+    padding: 0 5px;
+}
 
 
 
