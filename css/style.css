@@ -480,6 +480,7 @@ h1 {
 /* SECTION 6 */
 .section-6 {
     background-color: #b4d0e7;
+    margin-bottom: 120px;
 }
 
 .free-trial {
@@ -499,6 +500,27 @@ h1 {
 .trial-button {
     padding: 8px 60px;
 }
+
+/* SECTION 7 */
+.section-7 {
+    margin-bottom: 120px;
+}
+
+.question-section h3 {
+    border-bottom: 1px solid #e0e0e2;
+    padding-bottom: 50px;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e2;
+    padding: 35px 30px 35px 0px;
+}
+
+
+
+
 
 
 
