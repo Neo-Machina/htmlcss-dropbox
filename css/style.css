@@ -379,17 +379,17 @@ h1 {
 /* BOXES */
 .team-boxes {
     display: flex;
-    height: 441px;
+    height: 440px;
 }
 
 .col-box {
-    width: 29%;
+    width: 440px;
     position: relative;
 }
 
 .small-box{
-    width: 50%;
-    height: 50%;
+    width: 220px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
