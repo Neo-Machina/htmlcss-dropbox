@@ -306,12 +306,12 @@ h1 {
     width: 35%
 }
 
-.enterprise-button {
-    padding: 8px 70px;
-}
-
 .col-enterprise-right a {
     display: inline-block;
+}
+
+.enterprise-button {
+    padding: 8px 70px;
 }
 
 /* SECTION 3 */
@@ -479,21 +479,25 @@ h1 {
 
 /* SECTION 6 */
 .section-6 {
-    height: 400px;
     background-color: #b4d0e7;
 }
 
 .free-trial {
-    background-color: lightgreen;
     display: flex;
+    justify-content: space-between;
+    padding: 130px 0 120px 0; 
 }
 
-.free-trial div {
-    border: 1px solid red;
+.col-trial-right {
+    width: 50%;
 }
 
-.col-trial {
-    background-color: pink;
+.col-trial-right h2 {
+    color: #61082b;
+}
+
+.trial-button {
+    padding: 8px 60px;
 }
 
 
