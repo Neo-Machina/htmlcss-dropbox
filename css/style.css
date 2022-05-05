@@ -372,8 +372,6 @@ h1 {
 
 /* SECTION 5 */
 .section-5 {
-    height: 1000px;
-    background-color: green;
 }
 
 .more-info-box {
@@ -382,7 +380,7 @@ h1 {
 
 .more-info-link {
     text-decoration: underline;
-    margin: 30px 0 50px 0;
+    margin: 30px 0 55px 0;
     display: inline-block;
 }
 
@@ -392,12 +390,7 @@ h1 {
     height: 441px;
 }
 
-.team-boxes div {
-    border: 1px solid red;
-}
-
 .col-box {
-    background-color: pink;
     width: 29%;
     position: relative;
 }
@@ -405,57 +398,86 @@ h1 {
 .small-box{
     width: 50%;
     height: 50%;
-    background-color: lightgreen;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 45px;
+    position: absolute;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.left-top {
+    left: 0;
+    top: 0;
+}
+
+.right-top {
+    right: 0;
+    top: 0;
+}
+
+.left-bottom {
+    left: 0;
+    bottom: 0;
+}
+
+.right-bottom {
+    right: 0;
+    bottom: 0;
 }
 
 /* LEFT BOX */
 .designit-box {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.designit-logo {
-    
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
 }
 
 .arizona-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.arizona-logo {
-    
+    background-color: #61082b;
 }
 
 .florida-box {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-.florida-logo {
-    
+    background-color: #0093ce;
 }
 
 .topps-box {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    background-color: #ff1c1c;
 }
 
-.topps-logo {
-    
-}
-
+/* BOX-CENTER */
 .col-box-center {
-    background-color: lightblue;
     width: 42%;
+    padding: 40px 45px;
+    background-color: #f5f5f5;
+}
+
+.logo-box-center {
+    width: 128px;
+}
+
+.text-box-center {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+/* BOX RIGHT */
+.bicycle-box {
+    background-color: #d5001f;
+}
+
+.hearts-box {
+    background-color: #b4d0e7;
+}
+
+.lonely-box {
+    background-color: #0d2481;
+}
+
+.clear-box {
+    background-color: #ffd830;
 }
 
 
