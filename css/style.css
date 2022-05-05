@@ -556,8 +556,12 @@ footer {
     font-size: 13px;
 }
 
-.language-section span {
-    padding: 0 5px;
+.earth-icon {
+    font-size: 15px;
+}
+
+.language-section a {
+    color: inherit;
 }
 
 
