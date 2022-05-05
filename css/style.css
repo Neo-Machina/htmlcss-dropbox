@@ -371,9 +371,6 @@ h1 {
 } 
 
 /* SECTION 5 */
-.section-5 {
-}
-
 .more-info-box {
     width: 52%;
 }
@@ -478,6 +475,25 @@ h1 {
 
 .clear-box {
     background-color: #ffd830;
+}
+
+/* SECTION 6 */
+.section-6 {
+    height: 400px;
+    background-color: #b4d0e7;
+}
+
+.free-trial {
+    background-color: lightgreen;
+    display: flex;
+}
+
+.free-trial div {
+    border: 1px solid red;
+}
+
+.col-trial {
+    background-color: pink;
 }
 
 
